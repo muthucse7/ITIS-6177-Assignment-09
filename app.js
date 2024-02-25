@@ -9,7 +9,7 @@ app.get('/say', async(req, res) => {
     try{
         const keyword = req.query.keyword;
         // Configure the AWS service endpoint
-        const response = await axios.get('aws_url',{
+        const response = await axios.get('https://wr3jorgv727zr5s6umrq7ad6we0ccdrg.lambda-url.us-east-1.on.aws/',{
             params: {
                 keyword: keyword
             }

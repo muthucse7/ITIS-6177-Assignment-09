@@ -8,5 +8,5 @@ Node JS, REST API and AWS Lambda function
 To install the required dependencies
 `npm i express axios`
 
-# Start the Server 
-Run node `node app.js`
+## Start the Server 
+Run `node app.js`

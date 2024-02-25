@@ -1,4 +1,5 @@
-export const handler = async (event, context) => {
+// Node.js 16.x support 
+module.exports.handler = async (event, context) => {
   try {
     // Check if the required query parameter 'keyword' is present
     const keyword = event['queryStringParameters'] && event['queryStringParameters']['keyword'];
